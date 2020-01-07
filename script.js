@@ -18,14 +18,7 @@ for (var z=1; z<50;z++){
     output.innerHTML += z + " occurs " + howManytimes + " times " + "<br />";
    };
 
-
-
-
-
 // topSix.sort(function(a, b){return b-a}).slice(0,6);
-
-
-
 
 
 /*****************************************************
@@ -34,12 +27,6 @@ for (var z=1; z<50;z++){
  *                                                   *
  *                                                   *
 ****************************************************/
-/*function sendValue(){
-    var t = 0;
-    t = document.getElementById("input").value;
-    return t;
-};//onclick function*/
-
 
 
 function counterOfInstances(array,value){
@@ -59,13 +46,6 @@ function getNumbers(x){
 }; // function to return x of random numbers within the range as string
 
 
-//getSixRandNumbers();
-/*function getSixRandNumbers(){
-    for (var i=1; i<7; i++){
-    output.innerHTML += getRandomIntInclusive(1,49) + "<br />";
-    };// prints out 6 random numbers within the range to a div
-};*/
-
 
 
 function getRandomIntInclusive(min, max) {
@@ -74,3 +54,11 @@ function getRandomIntInclusive(min, max) {
     y = Math.floor(Math.random() * (max - min + 1)) + min;
     return y;
   };// returns random number in a range inclusive min and max
+
+
+  //getSixRandNumbers();
+  /*function getSixRandNumbers(){
+      for (var i=1; i<7; i++){
+      output.innerHTML += getRandomIntInclusive(1,49) + "<br />";
+      };// prints out 6 random numbers within the range to a div
+  };*/
