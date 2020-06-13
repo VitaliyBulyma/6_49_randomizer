@@ -8,7 +8,7 @@ var allNumbersArray =  [];
 var topSix=[];
 
 // call function to get how many random numbers user want to run
-getNumbers(600);
+getNumbers(60000);
 // console.log(allNumbersArray);
 
 
