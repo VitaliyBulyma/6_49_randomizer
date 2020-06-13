@@ -13,9 +13,9 @@
 ## To do:
  [x] Create a function to make single random number in the range from 1 to 49 
  
- [x] Create a function to return random numbers with some text to html page for better visualization, and add those numbers to an array of random numbers
- 
  [x] Function to count how many times each number occured in the array by looping each number(1-49) as a parameter
+ 
+ [x] Create a function to return random numbers with some text to html page for better visualization, and add those numbers to an array of random numbers
  
  [x] Create key:value pairs
  
