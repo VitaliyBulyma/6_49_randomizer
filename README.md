@@ -11,12 +11,21 @@
 
 
 ## To do:
-
- [ ] Create key:value pairs
-
- [ ] Sort by values
+ [x] Create a function to make single random number in the range from 1 to 49 
  
- [ ] Select top six
+ [x] Create a function to return random numbers with some text to html page for better visualization, and add those numbers to an array of random numbers
+ 
+ [x] Function to count how many times each number occured in the array by looping each number(1-49) as a parameter
+ 
+ [x] Create key:value pairs
+ 
+ [ ] Come up with the way to sort by :value 
+
+ [ ] Select top six from sorted array
+ 
+ ## The problem
+ 
+    Need to find a way to sort by :value but maintain key: association 
  
  [ ] Add User Input box 
  
